@@ -2,9 +2,9 @@
 
 Sammlung eigener Automatisierungs-Blueprints für Home Assistant.
 
-## Lichtsteuerung: Lux, Nachlauf und Bypass (V2)
+## SmartLights (V2) – Lux, Nachlauf und Bypass
 
-Datei: [`automation/light/light_lux_bypass_timer.yaml`](automation/light/light_lux_bypass_timer.yaml)
+Datei: [`automation/light/smartlights.yaml`](automation/light/smartlights.yaml)
 
 ### Funktionen
 
@@ -17,7 +17,7 @@ Datei: [`automation/light/light_lux_bypass_timer.yaml`](automation/light/light_l
 
 ### Installation
 
-1. YAML-Datei nach `/config/blueprints/automation/custom/light_lux_bypass_timer.yaml` kopieren.
+1. YAML-Datei nach `/config/blueprints/automation/custom/smartlights.yaml` kopieren.
 2. Home Assistant → **Einstellungen → Automatisierungen & Szenen → Blueprints** öffnen und Blueprints neu laden.
 3. Über den Blueprint eine Automatisierung erstellen und Eingänge, Lux-Sensor, Lampen und Bypass auswählen.
 
